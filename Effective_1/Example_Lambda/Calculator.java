@@ -9,7 +9,7 @@ public class Calculator {
         Calculable divide = (a, b) -> a / b;
 
         operate(add,1,2);
-        operate(divide,3,1);
+        operate(divide,3,3);
 
     }
     private static void operate(Calculable calculable, int a, int b) {
