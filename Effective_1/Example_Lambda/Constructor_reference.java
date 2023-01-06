@@ -35,3 +35,8 @@ class Person {
         return id;
     }
 }
+
+//이거 근데 잘 이해 안감
+//Function 이랑 BiFunction 들어가는 이유랑
+//왜 써야하는지?
+//람다식이 맞는지? 맞다면 인터페이스는 어따 팔아먹었는지?
