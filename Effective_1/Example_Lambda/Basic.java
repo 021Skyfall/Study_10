@@ -15,6 +15,7 @@ public class Basic {
         // 참고로 이거 num 에 int 타입 들어갈거고 래퍼 클래스인 Integer 에
         // 더하기 메소드가 있음 그래서 변형 가능
         // 그래서 Functional functional = Integer::sum; 로 변형 가능
+        // 아 이게 메소드 참조
 
         // Functional 클래스를 참조 타입으로
         // 참조 변수를 선언하고 동시에 람다식으로 sum 추상 메소드를 정의함
