@@ -27,6 +27,15 @@ public class Basic {
         Exam2 exam2 = () -> System.out.println("뭐요");
         // 타입이 void 인 경우 말 그대로 공허함
         exam2.ac();
+
+        functional = (num1, num2) -> num1 - num2;
+        System.out.println(functional.sum(32,24));
+        functional = (num1, num2) -> num1 * num2;
+        System.out.println(functional.sum(22,54));
+        // 이거 써보니까 연속적으로 재정의 할 수 있네 걍 오버라이딩 되나봄
+        // 람다식으로 인터페이스 재정의 즉, 오버라이딩
+        // 당연히 오버라이딩 된 것이기 때문에 절차적으로 나오는 거고
+        // 결국 return 문은 기본적으로 쓸 필요가 없고
     }
 }
 interface Functional {
