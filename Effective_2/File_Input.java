@@ -13,7 +13,7 @@ public class File_Input {
                                                 // 값이 -1 인지 확인
                 System.out.println((char) i);
             }
-            input.close();
+            input.close(); // 말 그대로 인풋 로직을 끝냄
         } catch (Exception e) {
             System.out.println(e);
         }
