@@ -3,6 +3,8 @@ package Effective_1.Steam_Quest;
 import java.util.Arrays;
 
 public class g_ {
+    //이번주의 최고 온도만을 모아놓은 List를 분석하여 이번주가 더웠는지 알아봅시다.
+    // 최고 기온이 30도를 넘은 날이 3일 이상이면 true를, 그렇지 않다면 false를 리턴해야 합니다.
     public boolean isHot(int[] temperature) {
         // int[] result = Arrays.stream(temperature)
         //             .filter(e -> e >= 30).toArray();
