@@ -12,7 +12,7 @@ public class File_Output {
             // productRepository 처럼
             String word = "code\ncodes\nand\ncode";
 
-            byte[] b = word.getBytes(); // 적절한 크기의 배열 생성해서 byte 타입으로 word 의 값 입력
+            byte[] b = word.getBytes(); // 파일 입출력 스트림은 바이트 기반임
             outputStream.write(b); // 작성
             outputStream.close(); // 끝
         } catch (Exception e) {
