@@ -12,6 +12,9 @@ public class a_computeAverageOfMaleMember {
                 .average() // 더블로 변경한 해당 age 값의 평균
                 .orElse(0); // 일련의 과정을 거친 후 filter 에서 걸러진 애들 제외하고는 0 출력
                                   // 그러니까 위에 해당 사항 없는 것들 전부 0으로 둔다는 뜻
+//        아 이거 orElse 가 Optional~ 타입에서 쓸 수 있는 메소드래
+//        이 말은 즉슨 계산형인 average 는 타입이 Optional 타입으로 바뀌고
+//        이 옵셔널 타입은 옵셔널 클래스고 그 클래스에 orElse 라는 if 문 대체 메소드가 있는 것
         return result;
     }
 
