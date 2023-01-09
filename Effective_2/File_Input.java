@@ -1,7 +1,7 @@
 package Effective_2;
 
 import java.io.BufferedInputStream;
-import java.io.FileInputStream;
+import java.io.FileInputStream; // 바이트 기반 스트림
 
 public class File_Input {
     public static void main(String[] args) {
@@ -19,3 +19,17 @@ public class File_Input {
         }
     }
 }
+// 한글 뽑아내려 했더니í
+//
+//
+//ê
+//¸
+//
+//
+//ì
+//
+//
+//ë
+// 
+//¥
+// 이따구로 나옴 >> 유니코드 변환이 안된다는 뜻
