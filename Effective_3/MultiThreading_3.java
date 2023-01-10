@@ -49,18 +49,24 @@ public class MultiThreading_3 {
             for (int i = 0; i < 30; i++) {
                 System.out.print("*");
             }
+            System.out.println(Thread.currentThread().getName());
         });
 
-
+        thread.start();
         thread1.start();
         thread2.start();
-        thread4.start();
         thread3.start();
-        thread.start();
+        thread4.start();
         thread5.start();
 
             for (int i = 0; i < 30; i++) {
                 System.out.print("2");
             }
+
+        System.out.println(thread1.getName()); // Thread 클래스 인스턴스 메소드
+        thread2.setName("hi"); // Thread 클래스 인스턴스 메소드
+        System.out.println(thread2.getName());
+        System.out.println(Thread.currentThread().getName());
+
     }
 }
