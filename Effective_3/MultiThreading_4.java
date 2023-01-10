@@ -1,6 +1,6 @@
 package Effective_3;
 
-public class MultiTreading_4 {
+public class MultiThreading_4 {
     public static void main(String[] args) {
         Runnable runnable = new TreadTask();
         Thread thread1 = new Thread(runnable);
