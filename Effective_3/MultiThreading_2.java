@@ -24,4 +24,3 @@ class ThreadTask2 extends Thread {
 }
 // 결과는 구현했던 전 단계와 마찬가지로 섞여서 나오기도하고 아니기도하고
 // 병렬 구동 가능
-//
